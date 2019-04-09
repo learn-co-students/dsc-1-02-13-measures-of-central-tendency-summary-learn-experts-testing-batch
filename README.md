@@ -89,6 +89,7 @@ For the sample data above, let's draw histogram for retirement ages
 
 ```python
 import matplotlib.pyplot as plt
+%matplotlib inline
 x = [54, 54, 54, 55, 56, 57, 57, 58, 58, 60, 60]
 plt.hist(x, bins=5)
 plt.title("Retirement Ages")
@@ -115,7 +116,7 @@ For symmetric distributions, the mode, median and mean are all in the middle of 
 
 #### Skewed distributions
 
-A non-symmetrical distribution is called a "skewed distribution". For skewed distribution, the mode and median remain unchanged, but the mean generally moves in the direction of the tails. For such distributions, the median is often a preferred measure of central tendency, as the mean does not clearly reflect the central tendency. BAsed on the direction of mean's movement, such distributions can be further categorized as positively or negatively skewed distributions as shown below:
+A non-symmetrical distribution is called a "skewed distribution". For skewed distribution, the mode and median remain unchanged, but the mean generally moves in the direction of the tails. For such distributions, the median is often a preferred measure of central tendency, as the mean does not clearly reflect the central tendency. Based on the direction of mean's movement, such distributions can be further categorized as positively or negatively skewed distributions as shown below:
 
 ![](pskew.gif)
 ![](nskew.gif)

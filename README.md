@@ -93,6 +93,7 @@ For the sample data above, let's draw a histogram for retirement ages.
 
 ```python
 import matplotlib.pyplot as plt
+%matplotlib inline
 x = [54, 54, 54, 55, 56, 57, 57, 58, 58, 60, 60]
 plt.hist(x, bins=5)
 plt.title("Retirement Ages")
